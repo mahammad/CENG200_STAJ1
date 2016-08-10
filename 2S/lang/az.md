@@ -4,7 +4,7 @@
 ### Mündəricat
 1. Məqsədi
 2. İstifadə olunan elementlər
-3. Kod
+3. [Kod](/2S/lang/az.md#Kod)
 
 ### Məqsədi
 2S: Günəş paneli sensoru vasitəsi ilə azimut ve elevation istiqamətlərində sensor üzərindəki maksimum voltaj dəyinə görə günəş şuasının maksimum düşmə bucağını qeyde alır və prosedur bitdikdən sonra servo motorları vasitəsilə günəş panelini qeydə aldığı azimut ve elevation istiqamətlərinə doğru istiqamətləndirir. Bu prosedurlar bittikdən sonra...
@@ -17,7 +17,7 @@
 * 2 ədəd 10k ohm diod
 * Bağlantı kabelleri
 
-### Code
+### Kod
 
 ```arduino
 
