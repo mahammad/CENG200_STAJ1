@@ -319,4 +319,4 @@ void sunAzEl(double latit, double longit, double tzone){
 /** Finish**/
 ```
 
-#### [yuxarı](/2S/lang/az.md#sun-spoting-2s)
+#### [yuxarı](/2S/lang/az.md)
