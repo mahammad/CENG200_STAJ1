@@ -13,12 +13,16 @@
 
 * Arduino UNO
 ![](/2S/img/unosxem.png)
+
 * Solar Panel sensoru
 ![](/2S/img/sunpanel.png)
+
 * 2 ədəd Servo motorla
 ![](/2S/img/servo.jpg)
+
 * 2 ədəd 10k ohm diod
 ![](/2S/img/ohm.jpg)
+
 * Bağlantı kabelleri
 
 ### Kod
