@@ -1,6 +1,4 @@
-|  |     |
-| :---: | :---: |
-| ##### start | ##### [end](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#yuxari)|
+##### start
 
 # Sun Spoting (2S)
 > azercosmos təcrübə programı tapşırığı
@@ -10,6 +8,7 @@
 1. Məqsədi
 2. İstifadə olunan elementlər
 3. [Kod](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#kod)
+4. [Qaynaqlar](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#qaynaqlar)
 
 ## Məqsədi
 
