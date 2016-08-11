@@ -1,4 +1,7 @@
-##### start
+|  |     |
+| :---: | :---: |
+| ##### start | ##### [end](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#yuxari)|
+
 # Sun Spoting (2S)
 > azercosmos təcrübə programı tapşırığı
 
@@ -329,4 +332,4 @@ void sunAzEl(double latit, double longit, double tzone){
 
 - Zaman düsturu: https://en.wikipedia.org/wiki/Equation_of_time
 
-### [yuxarı](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#start)
+### [yuxari](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#start)
