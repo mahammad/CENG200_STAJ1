@@ -1,12 +1,11 @@
 # Sun Spoting (2S)
-
 > azercosmos təcrübə programı tapşırığı
 
 ## Mündəricat
 
 1. Məqsədi
 2. İstifadə olunan elementlər
-3. [Kod](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#m%C9%99qs%C9%99di)
+3. [Kod](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#kod)
 
 ## Məqsədi
 
