@@ -1,33 +1,36 @@
-## Sun Spoting (2S)
+# Sun Spoting (2S)
+
 > azercosmos təcrübə programı tapşırığı
 
-### Mündəricat
+## Mündəricat
+
 1. Məqsədi
 2. İstifadə olunan elementlər
-3. [Kod](/2S/lang/az.md#Kod)
+3. [Kod](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#m%C9%99qs%C9%99di)
 
-### Məqsədi
-2S: Günəş paneli sensoru vasitəsi ilə azimut ve elevation istiqamətlərində sensor üzərindəki maksimum voltaj dəyinə görə günəş şuasının maksimum düşmə bucağını qeyde alır və prosedur bitdikdən sonra servo motorları vasitəsilə günəş panelini qeydə aldığı azimut ve elevation istiqamətlərinə doğru istiqamətləndirir. Bu prosedurlar bittikdən sonra...
+## Məqsədi
 
-### İstifadə olunan elementlər
+2S(Sun Spoting) iki mərhələdən;
 
-* Arduino UNO
-![](/2S/img/unosxem.png)
-* Solar Panel sensoru
-![](/2S/img/sunpanel.png)
-* 2 ədəd Servo motorla
-![](/2S/img/servo.jpg)
-* 2 ədəd 10k ohm diod <br>
-![](/2S/img/ohm.jpg)
-* Bağlantı kabelleri
+1. Günəş paneli sensoru vasitəsi ilə azimut ve elevation istiqamətlərində sensor üzərindəki maksimum voltaj dəyinə görə günəş şuasının maksimum düşmə bucağını qeyde alır və prosedur bitdikdən sonra servo motorları vasitəsilə günəş panelini qeydə aldığı azimut ve elevation istiqamətlərinə doğru istiqamətləndirir.
+2. zamana görə günəşi izləmək.
 
-### Kod
+## İstifadə olunan elementlər
+
+- Arduino UNO ![](/2S/img/unosxem.png)
+- Solar Panel sensoru ![](/2S/img/sunpanel.png)
+- 2 ədəd Servo motorla ![](/2S/img/servo.jpg)
+- 2 ədəd 10k ohm müqavimət(resistance)<br>
+  ![](/2S/img/ohm.jpg)
+- Bağlantı kabelleri
+
+## Kod
 
 ```arduino
 
 /*
- * 1. Solar Panel sensor vasitesile güneşden gelen işığın ölcerek en yüksek voltaja göre azimut ve elevation değerlerinin tapılması
- * 2. Birinci addımda tapılan
+ * 1\. Solar Panel sensor vasitesile güneşden gelen işığın ölcerek en yüksek voltaja göre azimut ve elevation değerlerinin tapılması
+ * 2\. Birinci addımda tapılan
  */
 #include "Servo.h"
 #include "math.h"
@@ -322,5 +325,8 @@ void sunAzEl(double latit, double longit, double tzone){
 }
 /** Finish**/
 ```
+### Qaynaqlar
 
-#### [yuxarı](/2S/lang/az.md)
+- Zaman düsturu: https://en.wikipedia.org/wiki/Equation_of_time
+
+### [yuxarı](/2S/lang/az.md)
