@@ -103,5 +103,9 @@ subprocess.call("rm -rf *.txt", shell=True)
 
 Kod acıqlaması, program cmd.sh faylından serverdən məlumatları almaq üçün lazimi komandaları göndərib məlumatları .txt fayllarına qeyd edəcək nəhayətində məlumatlar excel fayla yazılacaq. Python programı ilə shell'e komanda göndərmək üçün,
 ```python
-import subprocess```
+import subprocess
+```
 kitabxanasından istifadə olunub.
+
+[yuxarı](https://github.com/smehemmed/CENG200_STAJ1/blob/master/memInfo/lang/az.md#meminfo-to-excel)      | [Ana səhifə](https://github.com/smehemmed/CENG200_STAJ1)     
+ ------------- | -------------
