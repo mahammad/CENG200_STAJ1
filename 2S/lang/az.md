@@ -1,5 +1,5 @@
 # Sun Spoting
-> Sun Spoting (2S) azercosmos təcrübə programı tapşırığı
+> Sun Spoting (2S) azerkosmos təcrübə programı tapşırığı
 
 ## Mündəricat
 
