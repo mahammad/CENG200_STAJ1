@@ -2,8 +2,8 @@
 > Əməli yaddaş informasiyasının oxunub excel faylına cevrilməsi.
 
 ### Tapşırıq
- 1. addim, listi verilən serverlərə `ssh` vasitəsilə giriş etmədən `RAM` (Əməli yaddaş) informasiyasının oxumaq.
- 2. addım, oxunan məlumatların excel faylına yazılması
+ 1. mərhələ, listi verilən serverlərə `ssh` vasitəsilə giriş etmədən `RAM` (Əməli yaddaş) informasiyasının oxumaq.
+ 2. mərhələ, oxunan məlumatların excel faylına yazılması
 
 
  #### Tapşırıq: 1. mərhələsi
@@ -27,3 +27,6 @@ do
 done
 ```
 Kod, `connection` adlı listdə qoşulma adları girilən serverlərdir. Bu serverlərə sıra ilə komanda göndərərək, komanda nəticələrini qoşulma adına bağlı text faylına qeyd edər. Əlavə olaraq `whoami` komandası ilə serverin istifadəci adı və `date +%d-%m-%Y--%H:%M:%S` komandası ilə komanda göndərdiyi vaxtı qeydə alır.
+
+#### Tapşırıq 2. mərhələsi
+1.mərhələ nəticəsində listimizdə olan bütün serverlerə komandalar göndərərək məlumatlarımızı listimizdəki qoşulma adlarına uyğun olaraq text fayllarına qeyd ettik. Bu mərhələdə bu fayllardakı məlumatları excel fayllarına qeyd etmək üçün program yazmalıyıq bunun üçün isə python programlama dilindən istifadə edəcəyik.
