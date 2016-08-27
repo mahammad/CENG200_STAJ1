@@ -70,3 +70,6 @@ Tapşırığın bu mərhələsində Arduino vasitəsilə üzərinə düşən iş
 	}
 ```
  	
+ - Tapşırıq video carx [Video](https://www.youtube.com/watch?v=Vl69tx_xEss)
+
+ 
