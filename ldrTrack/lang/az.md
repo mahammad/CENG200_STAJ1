@@ -78,5 +78,5 @@ Tapşırığın bu mərhələsində Arduino vasitəsilə üzərinə düşən iş
 :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/az.md#ldrtrack)      | [Ana səhifə](/README.md)| [ldrTrack: Ana Səhifə](/ldrTrack/README.md)     
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/az.md#ldrtrack) | [Ana səhifə](/rm/az.md)| [ldrTrack: Ana Səhifə](/ldrTrack/README.md)     
  ----|----|----
