@@ -69,7 +69,12 @@ Tapşırığın bu mərhələsində Arduino vasitəsilə üzərinə düşən iş
 	  delay(1000);                  
 	}
 ```
- 	
- - Tapşırıq video carx [Video](https://www.youtube.com/watch?v=Vl69tx_xEss)
+----------------------------
+- Tapşırıq video carx [Video](https://www.youtube.com/watch?v=Vl69tx_xEss)
+----------------------------
 
- 
+**problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)**
+
+---------------------------
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/az.md#ldrtrack)      | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1)| [ldrTrack: Ana Səhifə](/memInfo/README.md)     
+ ----|----|----
