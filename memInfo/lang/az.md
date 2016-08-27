@@ -101,10 +101,10 @@ for x in xrange(0,4):
 subprocess.call("rm -rf *.txt", shell=True)
 ```
 
-Kod acıqlaması, program [cmd.sh]( https://github.com/smehemmed/CENG200_STAJ1/blob/master/memInfo/code/cmd.sh) faylından serverdən məlumatları almaq üçün lazimi komandaları göndərib məlumatları .txt fayllarına qeyd edəcək nəhayətində məlumatlar excel fayla yazılacaq. Python programı ilə shell'e komanda göndərmək üçün,`subprocess`kitabxanasından istifadə olunub. <br>
+Kod acıqlaması, program [cmd.sh]( https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/code/cmd.sh) faylından serverdən məlumatları almaq üçün lazimi komandaları göndərib məlumatları .txt fayllarına qeyd edəcək nəhayətində məlumatlar excel fayla yazılacaq. Python programı ilə shell'e komanda göndərmək üçün,`subprocess`kitabxanasından istifadə olunub. <br>
 
-**problem, xəta .vs [bildir](https://github.com/smehemmed/CENG200_STAJ1/issues/new)**
+**problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)**
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/smehemmed/CENG200_STAJ1/blob/master/memInfo/lang/az.md#meminfo-to-excel)      | [Ana səhifə](https://github.com/smehemmed/CENG200_STAJ1)| [MemInfo: Ana Səhifə](https://github.com/smehemmed/CENG200_STAJ1/tree/master/memInfo)     
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/lang/az.md#meminfo-to-excel)      | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1)| [MemInfo: Ana Səhifə](https://github.com/mahammad/CENG200_STAJ1/tree/master/memInfo)     
  ----|----|----

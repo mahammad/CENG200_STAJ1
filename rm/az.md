@@ -7,11 +7,11 @@
 * **Öyrənmə   :** Arduino modelləri
 	* Servo
 	* LDR
------------
-**problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)**
+
 <br>
-və ya :email: `msxiyev@gmail.com`
+-----------
+**problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)** və ya :email: `msxiyev@gmail.com`
 
 ---------------------------
-   [Ana səhifə](/README.md)| 	     
+   [CENG200 STAJ - 1](/README.md)| 	     
  ----|----
