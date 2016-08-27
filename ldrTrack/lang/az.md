@@ -75,6 +75,8 @@ Tapşırığın bu mərhələsində Arduino vasitəsilə üzərinə düşən iş
 
 **problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)**
 
+:email: `msxiyev@gmail.com`
+
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/az.md#ldrtrack)      | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1)| [ldrTrack: Ana Səhifə](/memInfo/README.md)     
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/az.md#ldrtrack)      | [Ana səhifə](/README.md)| [ldrTrack: Ana Səhifə](/ldrTrack/README.md)     
  ----|----|----

@@ -329,4 +329,12 @@ void sunAzEl(double latit, double longit, double tzone){
 
 - Zaman düsturu: https://en.wikipedia.org/wiki/Equation_of_time
 
-### [yuxari](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#sun-spoting)
+----------------------------
+
+**problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)**
+
+:email: `msxiyev@gmail.com`
+
+---------------------------
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master//2S/lang/az.md#sun-spoting) | [Ana səhifə](/README.md)| [2S: Ana Səhifə](/2S/README.md)     
+ ----|----|----
