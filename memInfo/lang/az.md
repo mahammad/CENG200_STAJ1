@@ -106,5 +106,5 @@ Kod acıqlaması, program [cmd.sh]( https://github.com/mahammad/CENG200_STAJ1/bl
 **problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)**
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/lang/az.md#meminfo-to-excel)      | [Ana səhifə](/rm/az.md)| [MemInfo: Ana Səhifə](/memInfo)     
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/lang/az.md#meminfo-to-excel)      | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/az.md#azerkosmos-t%C9%99cr%C3%BCb%C9%99-program%C4%B1-tap%C5%9F%C4%B1r%C4%B1qlar%C4%B1)| [MemInfo: Ana Səhifə](/memInfo)     
  ----|----|----

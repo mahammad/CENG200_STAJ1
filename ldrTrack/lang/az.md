@@ -78,5 +78,5 @@ Tapşırığın bu mərhələsində Arduino vasitəsilə üzərinə düşən iş
 :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/az.md#ldrtrack) | [Ana səhifə](/rm/az.md)| [ldrTrack: Ana Səhifə](/ldrTrack/README.md)     
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/az.md#ldrtrack) | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/az.md#azerkosmos-t%C9%99cr%C3%BCb%C9%99-program%C4%B1-tap%C5%9F%C4%B1r%C4%B1qlar%C4%B1)| [ldrTrack: Ana Səhifə](/ldrTrack/README.md)     
  ----|----|----

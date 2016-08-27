@@ -336,5 +336,5 @@ void sunAzEl(double latit, double longit, double tzone){
 :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#sun-spoting) | [Ana səhifə](/rm/az.md)| [2S: Ana Səhifə](/2S/README.md)     
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#sun-spoting) | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/az.md#azerkosmos-t%C9%99cr%C3%BCb%C9%99-program%C4%B1-tap%C5%9F%C4%B1r%C4%B1qlar%C4%B1)| [2S: Ana Səhifə](/2S/README.md)     
  ----|----|----
