@@ -11,11 +11,12 @@ Tapşırıq robotik və program təminatından ibarətdir.
   <br>
 2. Robotik
 	Tapşırığın bu mərhələsində Arduino vasitəsilə üzərinə düşən işığı ölcən istifadəcidən gələn komandolara görə isə siqnal və işıq yandıran bəsit robotdur.
-	- istifadə olunan elemntlər
-		- LDR: foto müqvimət göstərici
-		- Buzzer: siqnal modul
-		- 10k ohm x 2 ədəd müqavimət
-		- LED
-		- Arduino
+- istifadə olunan elemntlər
+	- LDR: foto müqvimət göstərici
+	- Buzzer: siqnal modul
+	- 10k ohm x 2 ədəd müqavimət
+	- LED
+	- Arduino
+<br>
 ![sxem](/ldrTrack/img/s_ino.png) 
  Mərhələnin acıqlaması:
