@@ -20,4 +20,49 @@ Tapşırıq robotik və program təminatından ibarətdir.
 <br>
 ![sxem](/ldrTrack/img/s_ino.png) 
 <br>
- ##### Mərhələnin acıqlaması:
+ #### Mərhələnin acıqlaması:
+ 	Arduino `LDR` modul vasitəsilə anlıq oxuduğu voltajı `Serial.begin(9600)` port vasitəsilə programa göndərir və bu port vasitəsilə programdan gələn məlumatlara görə də robotumuz xəbardarlıq siqnalları yaradır.Bu məlumatlar 4 fərqli əmr yerinə yetirir. Bu dörd əmr. 0 (ledi yandır), 1(ledi söndür), 2(siqnali aktiv et), 3(siqnali deaktiv et) 
+
+ 	Arduino kodumuz:
+
+ 	```Arduino
+ 	/*
+ * ----Task 2----
+ * 
+ * LDR Sensorundan ölcülen deyeri Java programındakı max min limitlere göre 
+ * limit aşıldığında buzzer ile signal gönderib led'in aktiv edilmesi. 
+ * 1 --> Led'in aktiv edilmesi
+ * 0 --> Led'in deaktiv edilmesi
+ * 2 --> Buzzer'in aktiv edilmesi
+ * 3 --> Buzzer'in deaktiv edilmesi
+ */
+const int ledPin = 2;     // Led'in giriş pini
+const int ldrPin = A0;    // LDR işıq sensorunun digital pin girişi
+const int buzzerPin = 8;  // Buzzer'in giriş pini
+//Programda istifade olunan deyerlerin tanımlanması
+int input=0,ldrValue=0;
+
+void setup() {
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(ledPin, OUTPUT); 
+  Serial.begin(9600); 
+}
+//
+void loop() {
+
+  ldrValue = analogRead(ldrPin);
+  input = Serial.read();
+  Serial.println(ldrValue); 
+  if(input == '1') {
+    digitalWrite(ledPin,HIGH);    //led ON
+  }else if(input == '0') { 
+    digitalWrite(ledPin,LOW);     //led OFF
+  } else if(input == '2'){
+    digitalWrite(buzzerPin,LOW); //buzzer OFF
+  }else if(input == '3'){
+    digitalWrite(buzzerPin,HIGH);  //buzzer ON
+  }
+  delay(1000);                  
+}
+ 	```
+ 	
