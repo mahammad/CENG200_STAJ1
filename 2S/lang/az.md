@@ -5,8 +5,8 @@
 
 1. Məqsədi
 2. İstifadə olunan elementlər
-3. [Kod](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#kod)
-4. [Qaynaqlar](https://github.com/smehemmed/CENG200_STAJ1/blob/master/2S/lang/az.md#qaynaqlar)
+3. [Kod](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#kod)
+4. [Qaynaqlar](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#qaynaqlar)
 
 ## Məqsədi
 
@@ -336,5 +336,5 @@ void sunAzEl(double latit, double longit, double tzone){
 :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master//2S/lang/az.md#sun-spoting) | [Ana səhifə](/rm/az.md)| [2S: Ana Səhifə](/2S/README.md)     
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#sun-spoting) | [Ana səhifə](/rm/az.md)| [2S: Ana Səhifə](/2S/README.md)     
  ----|----|----
