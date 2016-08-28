@@ -8,10 +8,9 @@
 - [LDR](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ldr)
 - [Arduino ilə Uzaqlıq Ölçmək](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#)
 - [Solar Panel](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#solar-panel)
-
 <br>
 ### Təməl Arduino Funksiyonları
-<br>
+
 * `Setup()` funksiyonu <br>
 	Setup funksiyonu, kod işləməyə başladığında Arduino'nun ilk olaraq oxuduğu kod bloqdur. Arduino bu qismi oxuduqdan sonra digər qisimləri oxumaqa başlayar. Bu qism sadəcə bir dəfə oxunur və program esnasında yeniden okunmaz. Bu alanda, pinlerin çalışma modları gibi önemli və bir dəfə edilməsi gərəkən bütün tənzimləmələr bu bloqda yerinə yetirilir. <br>
 * `Loop()` funksiyonu <br> 
@@ -20,8 +19,8 @@
 	Arduino kartı üzərində bulunan pinləri çıxış və yaxud giriş olaraq istifadə edə bilərik. Giriş olaraq istifadə olunan pinlər arduinoya gələn məlumatları qəbul etmək üçün, çıxış olaraq istifadə olunan pinlərdə isə arduinodan gedən məlumatları istifadə etmək üçün istifadə olunur. Daha cox proqramda istifadə olunacaq pinləri `Setup()` funksiyasında qeyd etmək üçün istifadə olunur. 
 	nümunə üçün:
 ```Arduino
-pinMode(12,OUTPUT); 	//pini cıxış olaraq qeyd edirik <br>
-pinMode(12,INPUT);  	//pini giriş olaraq qeyd edirik <br>
+pinMode(12,OUTPUT); 	//pini cıxış olaraq qeyd edirik 
+pinMode(12,INPUT);  	//pini giriş olaraq qeyd edirik 
 ```
 
 <br>
