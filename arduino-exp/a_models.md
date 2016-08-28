@@ -19,13 +19,10 @@
 * `PinMode` <br>
 	Arduino kartı üzərində bulunan pinləri çıxış və yaxud giriş olaraq istifadə edə bilərik. Giriş olaraq istifadə olunan pinlər arduinoya gələn məlumatları qəbul etmək üçün, çıxış olaraq istifadə olunan pinlərdə isə arduinodan gedən məlumatları istifadə etmək üçün istifadə olunur. Daha cox proqramda istifadə olunacaq pinləri `Setup()` funksiyasında qeyd etmək üçün istifadə olunur. 
 	nümunə üçün:
-
-<br>
-	```Arduino
-		pinMode(12,OUTPUT); 	//pini cıxış olaraq qeyd edirik
-		pinMode(12,INPUT);  	//pini giriş olaraq qeyd edirik
-	```
-	
+```Arduino
+pinMode(12,OUTPUT); 	//pini cıxış olaraq qeyd edirik <br>
+pinMode(12,INPUT);  	//pini giriş olaraq qeyd edirik <br>
+```
 
 <br>
 ### Seri Port
