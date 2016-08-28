@@ -8,7 +8,7 @@
 - [LDR](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ldr)
 - [Arduino ilə Uzaqlıq Ölçmək](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#)
 - [Solar Panel](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#solar-panel)
-<br>
+
 ### Təməl Arduino Funksiyonları
 
 	* `Setup()` funksiyonu <br>
@@ -19,8 +19,8 @@
 	Arduino kartı üzərində bulunan pinləri çıxış və yaxud giriş olaraq istifadə edə bilərik. Giriş olaraq istifadə olunan pinlər arduinoya gələn məlumatları qəbul etmək üçün, çıxış olaraq istifadə olunan pinlərdə isə arduinodan gedən məlumatları istifadə etmək üçün istifadə olunur. Daha cox proqramda istifadə olunacaq pinləri `Setup()` funksiyasında qeyd etmək üçün istifadə olunur. 
 	nümunə üçün:
 ```Arduino
-pinMode(12,OUTPUT); 	//pini cıxış olaraq qeyd edirik 
-pinMode(12,INPUT);  	//pini giriş olaraq qeyd edirik 
+	pinMode(12,OUTPUT); 	//pini cıxış olaraq qeyd edirik 
+	pinMode(12,INPUT);  	//pini giriş olaraq qeyd edirik 
 ```
 
 <br>
