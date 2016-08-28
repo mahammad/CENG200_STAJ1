@@ -1,5 +1,6 @@
 # Arduino modelleri
 > arduino modellərinin öyrənilməsi və numunələr
+
 ## mündericat
 - Servo 
 - LDR
