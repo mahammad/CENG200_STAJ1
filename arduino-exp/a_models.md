@@ -24,16 +24,26 @@
 		pinMode(12,INPUT);  	//12. pini giriş olaraq qeyd edirik 
 ```
  - `DigitalWrite()`
- 		Cıxış olaraq göstərilmiş pinlərə enerji vermək(`HIGH`) və ya enerjini kəsmək(`LOW`) üçün ustifadə olunur.
- ```Arduino
+ 		Cıxış olaraq göstərilmiş pinlərə enerji vermək(`HIGH`) və ya enerjini kəsmək(`LOW`) üçün ustifadə olunur. 
+```Arduino
  		digitalWrite(12,HIGH);      //12. pinə enerji vermək
  		digitalWrite(12,LOW);       //12. pindən enerjini kəsmək
- ```
+```
  - `DigitalRead()`
- 		Arduinonun digital pin girişlərindən məlumatları oxumaq üçün istifadə olunur.
- ```Arduino
- 		digitalRead(12);      //12. pindən məlumatı oxumaq
- ```
+ 		Arduinonun digital pin girişlərindən məlumatları oxumaq üçün istifadə olunur. 
+```Arduino
+ 		int digitalOxunan = digitalRead(12);      //12. pindən məlumatı oxumaq
+``` 
+ - `AnalogRead()`
+ 		Arduinonun analog pin girişlərindən(A0,A1,A2...) dəqiq məlumatlar oxumaq üçün istifadə olunur. 
+```Arduino
+ 		int analogOxunan = digitalRead(A2);      //A2. pindən məlumatı oxumaq
+``` 
+ - `Delay()`
+ 		Arduinonun `Loop()` funksiyonundakı proseslerdeki döngə zamanını tənzimləmək üçün istifadə olunan funksiyondur.
+```Arduino
+ 		delay(1000);     // ~1 saniyəlik döngə zaman aralığl üçün 1000 istifadə olunur
+```
  
 <br>
 ### Seri Port
