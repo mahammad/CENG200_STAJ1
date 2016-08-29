@@ -2,6 +2,7 @@
 > arduino modellərinin öyrənilməsi və numunələr
 
 ## mündericat
+- Təməl Arduino Funksiyonları
 - [Seri Port](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#seri-port)
 - [Analog Siqnal Oxuma](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#)
 - [Servo](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#servo-motor)
@@ -15,14 +16,25 @@
 		Setup funksiyonu, kod işləməyə başladığında Arduino'nun ilk olaraq oxuduğu kod bloqdur. Arduino bu qismi oxuduqdan sonra digər qisimləri oxumaqa başlayar. Bu qism sadəcə bir dəfə oxunur və program esnasında yeniden okunmaz. Bu alanda, pinlerin çalışma modları gibi önemli və bir dəfə edilməsi gərəkən bütün tənzimləmələr bu bloqda yerinə yetirilir. <br>
  - `Loop()` funksiyonu <br> 
 		Setup funksiyonunsan sonra işləməyə başlayan funksuyondur. Bu bir ana funksiyondur və proqramın etməsini istədiyimiz proseslər buraya yazılır. Loop funksiyonu, sonsuz döngə şəklindədir, yəni buradaki proseslər bitdikdən sonra, proqram təkrar başa dönərək işləmləri yənidən təkrarlar. Bu döngə, Arduino işlədiyi müddətcə davam edər.
- - `PinMode` <br>
+ - `PinMode()` <br>
 		Arduino kartı üzərində bulunan pinləri çıxış və yaxud giriş olaraq istifadə edə bilərik. Giriş olaraq istifadə olunan pinlər arduinoya gələn məlumatları qəbul etmək üçün, çıxış olaraq istifadə olunan pinlərdə isə arduinodan gedən məlumatları istifadə etmək üçün istifadə olunur. Daha cox proqramda istifadə olunacaq pinləri `Setup()` funksiyasında qeyd etmək üçün istifadə olunur. 
-	    nümunə üçün:
-	```Arduino
-		pinMode(12,OUTPUT); 	//pini cıxış olaraq qeyd edirik 
-		pinMode(12,INPUT);  	//pini giriş olaraq qeyd edirik 
-	```
-
+	    nümunə üçün: <br>
+```Arduino
+		pinMode(12,OUTPUT); 	//12. pini cıxış olaraq qeyd edirik 
+		pinMode(12,INPUT);  	//12. pini giriş olaraq qeyd edirik 
+```
+ - `DigitalWrite()`
+ 		Cıxış olaraq göstərilmiş pinlərə enerji vermək(`HIGH`) və ya enerjini kəsmək(`LOW`) üçün ustifadə olunur.
+ ```Arduino
+ 		digitalWrite(12,HIGH);      //12. pinə enerji vermək
+ 		digitalWrite(12,LOW);       //12. pindən enerjini kəsmək
+ ```
+ - `DigitalRead()`
+ 		Arduinonun digital pin girişlərindən məlumatları oxumaq üçün istifadə olunur.
+ ```Arduino
+ 		digitalRead(12);      //12. pindən məlumatı oxumaq
+ ```
+ 
 <br>
 ### Seri Port
 Arduino'ya komando göndərmək və yaxud sensorlardakı dəyərləri göstərmək üçün seri xəbərləşmədən istifadə olunur. USB üzərindən kompyuterə məlumat göndərmək üçün seri xəbərləşmə protundan istifadə edəcəyik.
