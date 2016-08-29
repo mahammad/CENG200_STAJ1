@@ -80,7 +80,7 @@ void loop()
 
 ![LDR](/arduino-exp/img/ldr.jpg ) 
 <br>
-**nümurə:** LDR sendorunun aldığı dəyərləri analog giriş vasitəsilə oxuyaq. <br> **Kod:**
+**nümurə:** LDR sensorunun aldığı dəyərləri analog giriş vasitəsilə oxuyaq. <br> **Kod:**
 
 ```Arduino
 const int ldrPin = A2; //analog pin 2
