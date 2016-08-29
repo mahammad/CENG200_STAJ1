@@ -3,16 +3,17 @@
 
 ## mündəricat
 - Təməl Arduino Funksiyonları
-- [Seri Port](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#seri-port)a
+- [Seri Port](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#seri-port)
 - [Servo](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#servo-motor)
 - [LDR](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ldr)
+- [Buzzer](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#buzzer)
 - [Ultrasonic sensor](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ultrasonic-sensor)
 - [Solar Panel](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#solar-panel)
 
 ### Təməl Arduino Funksiyonları
 
  - `Setup()` funksiyonu <br>
-		Setup funksiyonu, kod işləməyə başladığında Arduino'nun ilk olaraq oxuduğu kod bloqdur. Arduino bu qismi oxuduqdan sonra digər qisimləri oxumaqa başlayar. Bu qism sadəcə bir dəfə oxunur və program esnasında yeniden okunmaz. Bu alanda, pinlerin çalışma modları gibi önemli və bir dəfə edilməsi gərəkən bütün tənzimləmələr bu bloqda yerinə yetirilir. <br>
+		Setup funksiyonu, kod işləməyə başladığında Arduino'nun ilk olaraq oxuduğu kod bloqdur. Arduino bu qismi oxuduqdan sonra digər qisimləri oxumaqa başlayar. Bu qism sadəcə bir dəfə oxunur və program esnasında yeniden okunmaz. Bu alanda, pinlərin çalışma modları gibi önemli və bir dəfə edilməsi gərəkən bütün tənzimləmələr bu bloqda yerinə yetirilir. <br>
  - `Loop()` funksiyonu <br> 
 		Setup funksiyonunsan sonra işləməyə başlayan funksuyondur. Bu bir ana funksiyondur və proqramın etməsini istədiyimiz proseslər buraya yazılır. Loop funksiyonu, sonsuz döngə şəklindədir, yəni buradaki proseslər bitdikdən sonra, proqram təkrar başa dönərək işləmləri yənidən təkrarlar. Bu döngə, Arduino işlədiyi müddətcə davam edər.
  - `PinMode()` <br>
@@ -46,9 +47,7 @@
  
 <br>
 ### Seri Port
-Arduino'ya komando göndərmək və yaxud sensorlardakı dəyərləri göstərmək üçün seri xəbərləşmədən istifadə olunur. USB üzərindən kompyuterə məlumat göndərmək üçün seri xəbərləşmə protundan istifadə edəcəyik.
-
-Arduino'nun 0 və 1 numaralı yani Rx və Tx pinleri seri xəbərlə sağlamaktadır. Bu pinler aynı zamanda Arduino'nun bilgisayarla xəbərləşmə sağlayan USB hattına da bağlıdır. 0 və 1 numaralı pinler başka bir yere bağlı olduğunda, Arduino bilgisayarla xəbərləşmə sağlayamamaktadır. Bu yüzden Arduino'ya kod atarken bu pinlerin bir yere bağlı olmamasına dikkat edilmelidir.
+Arduino'ya komando göndərmək və yaxud sensorlardakı dəyərləri göstərmək üçün seri xəbərləşmədən istifadə olunur. `USB` üzərindən kompyuterə məlumat göndərmək üçün arduino'nun `0` və `1` nömrəli yəni `Rx` və `Tx` pinləri seri xəbərləşməni təşkil etməkdədirlər. Bu pinlər eyni zamanda Arduino'nun kompyuterlə xəbərləşməsini təşkil edən `USB` xəttinə də bağlıdır. 0 və 1 nömrəli pinlər başqa bir yerə bağlı olduğunda, Arduino kompyuterlə xəbərləşməsi mümkün olmur. *Bu pinlən Arduinonun özəl pinləridir və sadəcə xəbərləşmə üçün istifadə ounmalıdır.*
 
 ### Servo Motor
 
@@ -78,13 +77,41 @@ void loop()
 ```
 <br>
 ### LDR
-Üzerine düşen ışık miktarına göre direnç değeri değişen elektronik devre elemanıdır. Ortam ışığının ölçülmesi gereken projelerde kullanılır. LDR'nin direnci eğer üzerine fazla ışık düşüyorsa sıfıra yakın, az ışık düşüyor vaya karanlık ortamda ise sonsuza yakın olmaktadır.
-
-Yapacağımız projelerde sıklıkla kullanacağımız devre elemanlarını ve bu elemanların kullanım nedenini öğrendik.
-
-Bu bölümde öğrenilen bilgiler, Arduino projelerinde kurulan devreleri anlamaya yardımcı olacaktır. Bu nedenle yeni başlayanlar için, bu bölümün zaman zaman tekrar edilmesi yararlı olacaktır.
+ Üzərinə düşən işıq miqdarına görə müqavimət dəyəri dəyişən elektron devrə parcasıdır. Mühit işığının ölçülməsi lazım olan layihələrdə istifadə edilər.`LDR`'nin müqaviməti əgər üzərinə çox işıq düşürsə sıfıra yaxın, az işıq düşərsə və ya qaranlıq mühitdə isə sonsuza yaxın olmaqdadır. 
 
 ![LDR](/arduino-exp/img/ldr.jpg ) 
+<br>
+**nümurə:** LDR sendorunun aldığı dəyərləri analog giriş vasitəsilə oxuyaq. <br> **Kod:**
+
+```Arduino
+const int ldrPin = A2; //analog pin 2
+
+void setup(){
+	Serial.begin(9600);
+}
+void loop(){
+	int ldrAnalogRead = analogRead(ldrPin);
+	Serial.println(ldrAnalogRead);
+	delay(1000);
+}
+```
+### Buzzer
+Buzzer, aldığı iki dəyər nəticəsində sadəcə `bib` səsi cıxaran lahiyələrdə xəbərdarlıq siqnalı vermək məqsədilə istifadə olunan elektronik parcadır. <br> *nümunə üçün:* 
+```Arduino
+const int buzzerPin = 8;  // Buzzer'in giriş pini
+
+
+void setup() {
+  pinMode(buzzerPin, OUTPUT);
+  Serial.begin(9600); 
+}
+//
+void loop() {
+  digitalWrite(buzzerPin,HIGH);  //buzzer ON
+  delay(1000);
+}
+```
+
 
 ### Solar Panel
 
