@@ -7,10 +7,9 @@
 * **Öğrenme:** *Arduino modulleri* [link](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/t_models.md#arduino-modelleri)
 <br>
 -----------
-<br>
-**hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com` 
 
-<br>
+**hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
+
 -------------
    [CENG200 STAJ - 1](https://github.com/mahammad/CENG200_STAJ1#ceng200-staj---1)|       
  ----|----
