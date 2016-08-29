@@ -1,13 +1,12 @@
 # Arduino modelleri
-> arduino modellərinin öyrənilməsi və numunələr
+> arduino modellərinin öyrənilməsi və nümunələri.
 
 ## mündəricat
 - Təməl Arduino Funksiyonları
-- [Seri Port](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#seri-port)
-- [Analog Siqnal Oxuma](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#)
+- [Seri Port](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#seri-port)a
 - [Servo](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#servo-motor)
 - [LDR](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ldr)
-- [Arduino ilə Uzaqlıq Ölçmək](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#)
+- [Ultrasonic sensor](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ultrasonic-sensor)
 - [Solar Panel](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#solar-panel)
 
 ### Təməl Arduino Funksiyonları
@@ -57,6 +56,9 @@ Servo motor 0 ilə 180 dərəcə arasında 1 dərəcə dəqiqliyi ilə dönəbil
 <br>
 *Arduino’da servo motor kontrolu üçün özəlləşdirilmiş PWM pinləri var. Bu pinlərin yanında (~) işareti qeyd olunmuşdur.* <br>
 
+![Rotary Servo Anatomy](/arduino-exp/img/servo.png ) 
+<br>
+**Arduino ilə Servo motor nümunəsi:**
 ```Arduino
 #include <Servo.h>  
 Servo servoObj;  /* servo motor obyekti yaradıldı */
@@ -81,6 +83,8 @@ void loop()
 Yapacağımız projelerde sıklıkla kullanacağımız devre elemanlarını ve bu elemanların kullanım nedenini öğrendik.
 
 Bu bölümde öğrenilen bilgiler, Arduino projelerinde kurulan devreleri anlamaya yardımcı olacaktır. Bu nedenle yeni başlayanlar için, bu bölümün zaman zaman tekrar edilmesi yararlı olacaktır.
+
+![LDR](/arduino-exp/img/ldr.jpg ) 
 
 ### Solar Panel
 
