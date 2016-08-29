@@ -46,7 +46,7 @@
  
 <br>
 ### Seri Port
-Arduino'ya komando göndərmək və yaxud sensorlardakı dəyərləri göstərmək üçün seri xəbərləşmədən istifadə olunur. `USB` üzərindən kompyuterə məlumat göndərmək üçün arduino'nun `0` və `1` nömrəli yəni `Rx` və `Tx` pinləri seri xəbərləşməni təşkil etməkdədirlər. Bu pinlər eyni zamanda Arduino'nun kompyuterlə xəbərləşməsini təşkil edən `USB` xəttinə də bağlıdır. 0 və 1 nömrəli pinlər başqa bir yerə bağlı olduğunda, Arduino kompyuterlə xəbərləşməsi mümkün olmur. *Bu pinlən Arduinonun özəl pinləridir və sadəcə xəbərləşmə üçün istifadə ounmalıdır.*
+Arduino'ya komando göndərmək və yaxud sensorlardakı dəyərləri göstərmək üçün seri xəbərləşmədən istifadə olunur. `USB` üzərindən kompyuterə məlumat göndərmək üçün arduino'nun `0` və `1` nömrəli yəni `Rx` və `Tx` pinləri seri xəbərləşməni təşkil etməkdədirlər. Bu pinlər eyni zamanda Arduino'nun kompyuterlə xəbərləşməsini təşkil edən `USB` xəttinə də bağlıdır. 0 və 1 nömrəli pinlər başqa bir yerə bağlı olduğunda, Arduino kompyuterlə xəbərləşməsi mümkün olmur. *Bu pinlər Arduino'nun özəl pinləridir və sadəcə xəbərləşmə üçün istifadə ounmalıdır.*
 
 ### Servo Motor
 
