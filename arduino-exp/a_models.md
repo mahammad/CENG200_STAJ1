@@ -1,15 +1,13 @@
 # Arduino modelleri
 > arduino modellərinin öyrənilməsi və nümunələri.
 
-## mündəricat
+## Mündəricat
 - Təməl Arduino Funksiyonları
 - [Seri Port](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#seri-port)
 - [Servo](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#servo-motor)
 - [LDR](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ldr)
 - [Buzzer](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#buzzer)
-- [Solar Panel](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#solar-panel)
 - [Ultrasonic sensor](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#ultrasonic-sensor)
-- [ikport pult](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#)
 
 ### Təməl Arduino Funksiyonları
 
@@ -113,16 +111,15 @@ void loop() {
 ```
 
 ### Ultrasonic sensor
-Sensor üzerinde giriş və cıxış olmaq üzərə iki üzü var. Cıxış üzündən mühitə müəyyən bir tezlikdə ultrasəs səs dalqası salınır. Giriş üzü də cıxış üzünün mühitə saldığı müəyyən frekanslardakı səs dalgalarını toplar. Uzaklık ölçümü için öncelikle cıxış üzündən mühitə səs dalğası salınır. Salınan səs dalğası 15 dərəcə bucaq altında mühitə yayılır. Yayılan səs dalğası ətrafında olan bir cismə dəydiyi zaman, cisim üzündən sensora geri yansıdar. Yansıyan dalğanın giriş üzünə gəlməsiylə işləm tamamlanır. Dalğanın cıxış üzündən çıxmasıyla giriş üzüne geri qayıtması arasında keçen vaxt ölçülərək, cismin uzaqlığı hesaplanır. Bu bəsit məntiqlə işləyən sensor, 2 cm ilə 200 cm arasındaki uzaqlıqları 1 cm həssasiyət ilə ölçəbilməkdədir. Sensor mühit xaricindəki uzaqlıqları xətalı olaraq ölçməkdədir. <br>
+Sensor üzerində giriş və cıxış olmaq üzərə iki üzü var. Cıxış üzündən mühitə müəyyən bir tezlikdə ultrasəs səs dalqası salınır. Giriş üzü də cıxış üzünün mühitə saldığı müəyyən frekanslardakı səs dalgalarını toplar. Uzaklık ölçümü için öncelikle cıxış üzündən mühitə səs dalğası salınır. Salınan səs dalğası 15 dərəcə bucaq altında mühitə yayılır. Yayılan səs dalğası ətrafında olan bir cismə dəydiyi zaman, cisim üzündən sensora geri yansıdar. Yansıyan dalğanın giriş üzünə gəlməsiylə işləm tamamlanır. Dalğanın cıxış üzündən çıxmasıyla giriş üzüne geri qayıtması arasında keçen vaxt ölçülərək, cismin uzaqlığı hesaplanır. Bu bəsit məntiqlə işləyən sensor, 2 cm ilə 200 cm arasındaki uzaqlıqları 1 cm həssasiyət ilə ölçəbilməkdədir. Sensor mühit xaricindəki uzaqlıqları xətalı olaraq ölçməkdədir. <br>
 
 ![Ultasonic](/arduino-exp/img/ultrasonic.png) <br> 
-*Sensor üzərində `VCC`, `Trig`, `Echo`, `GND` olmaq üzərə 4 ədəd pin mövcuddur. Bunlardan `VCC` pini enerji (5 volt), `GND` pini (-) mənfi. `Trig` pini cıxış üzündən dalğanın salınmasını təşkil edən pindir. `Echo` pini ise giriş üzüne yansıyan dalğanın hər hansısa obyektə cattığını Arduino'ya xəbər verən pindir. Nətəcə etibarilə Arduino'da program yazarken `trig` pini cıxış, `echo` pini isə giriş olaraq qeyd olunmalıdır.* <br>
+*Sensor üzərində `VCC`, `Trig`, `Echo`, `GND` olmaq üzərə 4 ədəd pin mövcuddur. Bunlardan `VCC` pini enerji (5 volt), `GND` pini (-) mənfi. `Trig` pini cıxış üzündən dalğanın salınmasını təşkil edən pindir. `Echo` pini isə giriş üzünə yansıyan dalğanın hər hansısa obyektə catdığını Arduino'ya xəbər verən pindir. Nətəcə etibarilə Arduino'da program yazarken `trig` pini cıxış, `echo` pini isə giriş olaraq qeyd olunmalıdır.* <br>
 ![Ultasonic](/arduino-exp/img/ultrasonic1.png) <br>
-**Nümunə üçün ultrasonic sensor ölçmə:** <br>
+**Nümunə üçün:** *ultrasonic sensor ölçmə və hesablanması.* <br>
 ![Ultasonic Numune](/arduino-exp/img/Ultrasonic-Sensor-Equasions.png ) <br>
 
 
-### Sensor
 <br>
 -----------
 **problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)** və ya :email: `msxiyev@gmail.com`
