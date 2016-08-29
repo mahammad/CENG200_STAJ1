@@ -1,7 +1,7 @@
 # Arduino modelleri
 > arduino modellərinin öyrənilməsi və numunələr
 
-## mündericat
+## mündəricat
 - Təməl Arduino Funksiyonları
 - [Seri Port](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#seri-port)
 - [Analog Siqnal Oxuma](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#)
@@ -42,7 +42,7 @@
  - `Delay()`
  		Arduinonun `Loop()` funksiyonundakı proseslerdeki döngə zamanını tənzimləmək üçün istifadə olunan funksiyondur.
 ```Arduino
- 		delay(1000);     // ~1 saniyəlik döngə zaman aralığl üçün 1000 istifadə olunur
+ 		delay(1000);     // ~1 saniyəlik döngənin zaman aralığlı üçün 1000 istifadə olunur
 ```
  
 <br>
@@ -83,3 +83,12 @@ Yapacağımız projelerde sıklıkla kullanacağımız devre elemanlarını ve b
 Bu bölümde öğrenilen bilgiler, Arduino projelerinde kurulan devreleri anlamaya yardımcı olacaktır. Bu nedenle yeni başlayanlar için, bu bölümün zaman zaman tekrar edilmesi yararlı olacaktır.
 
 ### Solar Panel
+
+
+<br>
+-----------
+**problem, xəta .vs [bildir](https://github.com/mahammad/CENG200_STAJ1/issues/new)** və ya :email: `msxiyev@gmail.com`
+
+---------------------------
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/a_models.md#arduino-modelleri)| [Ana Səhifə](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/az.md#azerkosmos-t%C9%99cr%C3%BCb%C9%99-program%C4%B1-tap%C5%9F%C4%B1r%C4%B1qlar%C4%B1) |[CENG200 STAJ - 1](https://github.com/mahammad/CENG200_STAJ1#ceng200-staj---1)	     
+ ---|----|----
