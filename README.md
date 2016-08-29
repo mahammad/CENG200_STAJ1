@@ -5,4 +5,4 @@
 
   * [azərbaycanca](/rm/az.md)
   * [türkçe](/rm/tr.md)
-  * [english](/rm/en.md)
+  
