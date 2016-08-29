@@ -116,8 +116,11 @@ void loop() {
 Sensor üzerinde giriş və cıxış olmaq üzərə iki üzü var. Cıxış üzündən mühitə müəyyən bir tezlikdə ultrasəs səs dalqası salınır. Giriş üzü də cıxış üzünün mühitə saldığı müəyyən frekanslardakı səs dalgalarını toplar. Uzaklık ölçümü için öncelikle cıxış üzündən mühitə səs dalğası salınır. Salınan səs dalğası 15 dərəcə bucaq altında mühitə yayılır. Yayılan səs dalğası ətrafında olan bir cismə dəydiyi zaman, cisim üzündən sensora geri yansıdar. Yansıyan dalğanın giriş üzünə gəlməsiylə işləm tamamlanır. Dalğanın cıxış üzündən çıxmasıyla giriş üzüne geri qayıtması arasında keçen vaxt ölçülərək, cismin uzaqlığı hesaplanır. Bu bəsit məntiqlə işləyən sensor, 2 cm ilə 200 cm arasındaki uzaqlıqları 1 cm həssasiyət ilə ölçəbilməkdədir. Sensor mühit xaricindəki uzaqlıqları xətalı olaraq ölçməkdədir. <br>
 
 ![Ultasonic](/arduino-exp/img/ultrasonic.png) <br> 
-*Sensor üzərində `VCC`, `Trig`, `Echo`, `GND` olmaq üzərə 4 ədəd pin mövcuddur. Bunlardan `VCC` pini enerji (5 volt), `GND` pini (-) mənfi. `Trig` pini cıxış üzündən dalğanın salınmasını təşkil edən pindir. `Echo` pini ise giriş üzüne yansıyan dalğanın hər hansısa obyektə cattığını Arduino'ya xəbər verən pindir. Nətəcə etibarilə Arduino'da program yazarken `trig` pini cıxış, `echo` pini isə giriş olaraq qeyd olunmalıdır.*
-![Ultasonic](/arduino-exp/img/ultrasonic1.png) 
+*Sensor üzərində `VCC`, `Trig`, `Echo`, `GND` olmaq üzərə 4 ədəd pin mövcuddur. Bunlardan `VCC` pini enerji (5 volt), `GND` pini (-) mənfi. `Trig` pini cıxış üzündən dalğanın salınmasını təşkil edən pindir. `Echo` pini ise giriş üzüne yansıyan dalğanın hər hansısa obyektə cattığını Arduino'ya xəbər verən pindir. Nətəcə etibarilə Arduino'da program yazarken `trig` pini cıxış, `echo` pini isə giriş olaraq qeyd olunmalıdır.* <br>
+![Ultasonic](/arduino-exp/img/ultrasonic1.png) <br>
+**Nümunə üçün ultrasonic sensor ölçmə:** <br>
+![Ultasonic Numune](/arduino-exp/img/Ultrasonic-Sensor-Equasions.png ) <br>
+
 
 ### Sensor
 <br>
