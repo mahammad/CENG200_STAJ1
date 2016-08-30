@@ -5,8 +5,8 @@
 
 1. Amacı
 2. Kullanılan Elemanlar
-3. [Kod](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#kod)
-4. [Kaynaklar](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#Kaynaklar)
+3. [Kod](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/tr.md#kod)
+4. [Kaynaklar](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/tr.md#Kaynaklar)
 
 ## Amacı
 
@@ -333,5 +333,5 @@ void sunAzEl(double latit, double longit, double tzone){
 **hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yukarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#sun-spoting) | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/az.md#azerkosmos-t%C9%99cr%C3%BCb%C9%99-program%C4%B1-tap%C5%9F%C4%B1r%C4%B1qlar%C4%B1)
+ :arrow_up: [yukarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/tr.md#sun-spoting) | [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)
  ----|----
