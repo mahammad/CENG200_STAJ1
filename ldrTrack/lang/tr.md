@@ -4,9 +4,10 @@
 ### 1. Java program
  Program seri port aracılığı ile Arduino'dan gelen veriyi okur ve Veri zaman grafiği oluşturmakta. Alt ve üst sınırlar ile grafiği sınırlandırma ve bu sınırların kecildiği durumda alarm verme özellikleri mevcut. Programda `jfree`grafik oluşturma ve `USB`'den veri okumak için `fazecast` kütüphabeleri kullanılmıştır.
 ![JAVA to Arduino](/ldrTrack/img/tutorial-rxtx.jpg ) 
-  Program [kod:](/ldrTrack/code/sensorGraph.java)
+<br>
+Program [kod:](/ldrTrack/code/sensorGraph.java)
   <br>
-  ![](/ldrTrack/img/s_graph.png) 
+![](/ldrTrack/img/s_graph.png) 
   <br>
 ### 2. Robotik
 Görevin bu aşaması çok basit yani Seri haberleşme aracılığıyla okunan veriyi sürekli gönder ve Arduino'ya gelen 4 farklı veriye göre alarm ver. Alarm, led ve buzzer ile sinyal veren elektronik parçalar.
