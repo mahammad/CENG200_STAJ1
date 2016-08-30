@@ -107,6 +107,6 @@ Kod açıklaması, program [cmd.sh]( https://github.com/mahammad/CENG200_STAJ1/b
 **hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/lang/tr.md#meminfo-to-excel)| [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri) |[CENG200 STAJ - 1](https://github.com/mahammad/CENG200_STAJ1#ceng200-staj---1)       
- ---|----|----
+ :arrow_up: [yukarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/lang/tr.md#meminfo-to-excel)| [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)       
+ ---|----
 

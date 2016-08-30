@@ -124,5 +124,5 @@ Sensör üzerinde `VCC`, `Trig`, `Echo`, `GND` olmak üzere 4 adet pin bulunmakt
 **hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/t_models.md#arduino-moduls)| [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)       
+ :arrow_up: [yukarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/t_models.md#arduino-moduls)| [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)       
  ---|----
