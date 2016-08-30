@@ -330,8 +330,7 @@ void sunAzEl(double latit, double longit, double tzone){
 - Zaman denklemi: https://en.wikipedia.org/wiki/Equation_of_time
 
 ----------------------------
-
-**problem, hata .vb [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
+**hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
 
 ---------------------------
  :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/az.md#sun-spoting) | [Ana səhifə](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/az.md#azerkosmos-t%C9%99cr%C3%BCb%C9%99-program%C4%B1-tap%C5%9F%C4%B1r%C4%B1qlar%C4%B1)

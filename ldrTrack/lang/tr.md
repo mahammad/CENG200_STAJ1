@@ -72,7 +72,7 @@ Görevin bu aşaması çok basit yani Seri haberleşme aracılığıyla okunan v
 - Görev: [Video](https://www.youtube.com/watch?v=Vl69tx_xEss)
 ----------------------------
 
-**problem, hata .vb [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
+**hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
 
 ---------------------------
  :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/tr.md#ldrtrack) | [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)    

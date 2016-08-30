@@ -118,7 +118,6 @@ Sensör üzerinde `VCC`, `Trig`, `Echo`, `GND` olmak üzere 4 adet pin bulunmakt
 **Örnek için:** *ultrasonic sensör ölçümü ve hesaplanması.* <br>
 ![Ultasonic Numune](/arduino-exp/img/Ultrasonic-Sensor-Equasions.png ) <br>
 
-
 <br>
 -----------
 
