@@ -75,7 +75,7 @@ void loop()
 ```
 <br>
 ### LDR
- ÜÜzerine düşen ışık miktarına göre direnç değeri değişen elektronik devre elemanıdır. Ortam ışığının ölçülmesi gereken projelerde kullanılır. LDR'nin direnci eğer üzerine fazla ışık düşüyorsa sıfıra yakın, az ışık düşüyor vaya karanlık ortamda ise sonsuza yakın olmaktadır.
+ Üzerine düşen ışık miktarına göre direnç değeri değişen elektronik devre elemanıdır. Ortam ışığının ölçülmesi gereken projelerde kullanılır. LDR'nin direnci eğer üzerine fazla ışık düşüyorsa sıfıra yakın, az ışık düşüyor vaya karanlık ortamda ise sonsuza yakın olmaktadır.
 
 ![LDR](/arduino-exp/img/ldr.jpg ) 
 <br>
@@ -125,5 +125,5 @@ Sensör üzerinde `VCC`, `Trig`, `Echo`, `GND` olmak üzere 4 adet pin bulunmakt
 **hata, öneri .vb için [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
 
 ---------------------------
- :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/t_models.md#arduino-moduls)| [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri) |[CENG200 STAJ - 1](https://github.com/mahammad/CENG200_STAJ1#ceng200-staj---1)       
- ---|----|----
+ :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/t_models.md#arduino-moduls)| [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)       
+ ---|----
