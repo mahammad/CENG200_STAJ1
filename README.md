@@ -5,7 +5,7 @@
 
   * [azərbaycanca](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/az.md#azerkosmos-t%C9%99cr%C3%BCb%C9%99-program%C4%B1-tap%C5%9F%C4%B1r%C4%B1qlar%C4%B1)
   * [türkçe](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)
-  * [english]() :arrows_counterclockwise:
+  * [english](https://github.com/mahammad/CENG200_STAJ1#ceng200-staj---1) :arrows_counterclockwise:
 
   ------------------
   :copyright: 2016 [Mehemmed ŞXIYEV](https://linkedin.com/in/mehemmedsxiyev)  
