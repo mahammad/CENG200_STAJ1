@@ -5,6 +5,7 @@
 * **Görev 2:** *Sun Spoting(2S)* [link](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/tr.md#sun-spoting)
 * **Görev 3:** *ldrTrack* [link](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/tr.md#ldrtrack)
 * **Öğrenme:** *Arduino modulleri* [link](https://github.com/mahammad/CENG200_STAJ1/blob/master/arduino-exp/t_models.md#arduino-moduls)
+* **Kaynakçalar** [link](/resource.md)
 
 <br>
 -----------
