@@ -6,7 +6,7 @@
 1. Amacı
 2. Kullanılan Elemanlar
 3. [Kod](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/tr.md#kod)
-4. [Kaynaklar](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/tr.md#Kaynaklar)
+4. [Kaynaklar](https://github.com/mahammad/CENG200_STAJ1/blob/master/2S/lang/tr.md#kaynaklar)
 
 ## Amacı
 

@@ -2,8 +2,8 @@
 >  LDR direç yardımı ile bulunduğu alanda üzerine düşen işık veya güneş şualarını değerlerini seri haberleşme(`USB`) ile java programına gönderen robotik ve java programından ibaret olan görev.
 
 ### 1. Java program
- Program seri port aracılığı ile Arduino'dan gelen veriyi okur ve Veri zaman grafiği oluşturmakta. Alt ve üst sınırlar ile grafiği sınırlandırma ve bu sınırların kecildiği durumda alarm verme özellikleri mevcut. Programda `jfree`grafik oluşturma və `USB`'den veri okumak için `fazecast` kütüphabeleri kullanılmıştır.
-
+ Program seri port aracılığı ile Arduino'dan gelen veriyi okur ve Veri zaman grafiği oluşturmakta. Alt ve üst sınırlar ile grafiği sınırlandırma ve bu sınırların kecildiği durumda alarm verme özellikleri mevcut. Programda `jfree`grafik oluşturma ve `USB`'den veri okumak için `fazecast` kütüphabeleri kullanılmıştır.
+![JAVA to Arduino](/ldrTrack/img/tutorial-rxtx.jpg ) 
   Program [kod:](/ldrTrack/code/sensorGraph.java)
   <br>
   ![](/ldrTrack/img/s_graph.png) 
