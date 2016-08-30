@@ -1,5 +1,6 @@
 # ldrTrack 
 >  LDR direç yardımı ile bulunduğu alanda üzerine düşen işık veya güneş şualarını değerlerini seri haberleşme(`USB`) ile java programına gönderen robotik ve java programından ibaret olan görev.
+
 ### 1. Java program
  Program seri port aracılığı ile Arduino'dan gelen veriyi okur ve Veri zaman grafiği oluşturmakta. Alt ve üst sınırlar ile grafiği sınırlandırma ve bu sınırların kecildiği durumda alarm verme özellikleri mevcut. Programda `jfree`grafik oluşturma və `USB`'den veri okumak için `fazecast` kütüphabeleri kullanılmıştır.
 
@@ -71,9 +72,7 @@ Görevin bu aşaması çok basit yani Seri haberleşme aracılığıyla okunan v
 - Görev: [Video](https://www.youtube.com/watch?v=Vl69tx_xEss)
 ----------------------------
 
-**problem, hata .vb [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)**
-
-:email: `msxiyev@gmail.com`
+**problem, hata .vb [yazınız](https://github.com/mahammad/CENG200_STAJ1/issues/new)** veya :email: `msxiyev@gmail.com`
 
 ---------------------------
  :arrow_up: [yuxarı](https://github.com/mahammad/CENG200_STAJ1/blob/master/ldrTrack/lang/tr.md#ldrtrack) | [Ana Sayfa](https://github.com/mahammad/CENG200_STAJ1/blob/master/rm/tr.md#azerkosmos-staj-program%C4%B1-g%C3%B6revleri)    
