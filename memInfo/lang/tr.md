@@ -1,20 +1,19 @@
 # MemInfo to Excel
-> Sunucuların Geçici bellek bilgilerinin okunup excel dosyasına kayıt edilmesi.
+> Sunucuların Geçici Bellek(RAM) bilgilerinin okunup excel dosyasına kayıt edilmesi.
 
 ### Görev
- 1. aşama, listi verilən serverlərə `ssh` vasitəsilə giriş etmədən `RAM` (Əməli yaddaş) informasiyasının oxumaq.
- 2. aşama, oxunan məlumatların excel faylına yazılması
+ 1. aşama, sunucuya listesinde bulunan sunuculara `ssh` bağlanma yöntemi ile sunucuya bağlanmadan `RAM` (Geciçi Bellek) bilgilerini gösteren komutu çalıştırıp çıktıyı text dosyasına yazmak.
+ 2. aşama, 1. aşamadı çıktıları ecel dosyası oluşturup dosyaya aktarmak.
 
 
  #### Görev: 1. aşamasi
-Görevda `bash` proqramlama dilidən istifadə edərək, serverə qoşulma vasitəsi olan `ssh` ilə əlaqə qurmadan birbaşa komanda göndəriləcək hansı ki, `RAM` (Əməli yaddaş) informasiyasının oxuyacaq.
-
-* Nümunə olaraq server istifadəcisi `test` , server `ip`si 178.12.123.78 olan serverə `ssh` ilə komanda göndərək:
+Görevde `bash` kabuk programlama dili kullanarak `ssh` bağlanma yöntemi kullanarak sunucuya giriş yapmadan, komut gönderip çıktıyı almak.
+* örnek olarak sunucu adı `test` , sunucu `ip`si 178.12.123.78 olan sunucuya `ssh` ile komut gönderelim:
 ```bash
 ssh test@178.12.123.78 free -m
 ```
-nümunədə `free -m` komandasi hansı ki serverin əməli yaddaşının məlumatlarının oxunmasında istifadə olunur.
-* Görev: 1. aşamasini `bash` proqramlama dili ilə kodunu yazaq.
+örnekde `free -m` komutu sunucunun RAM bilgilerinin çıktısını vermektedir. 
+* Görev: 1. aşamasini `bash` kabuk proqramlama dili ile kodunu yazalım.
 
 ```bash
 #!/bin/bash
@@ -26,18 +25,18 @@ do
     ssh ${connection[$index]} whoami  >> ${connection[index]}.txt && date +%d-%m-%Y--%H:%M:%S  >> ${connection[index]}.txt && free -m >> ${connection[index]}.txt
 done
 ```
-Kod acıqlaması, `connection` adlı listdə qoşulma adları girilən serverlərdir. Bu serverlərə sıra ilə komanda göndərərək, komanda nəticələrini qoşulma adına bağlı text faylına qeyd edər. Əlavə olaraq `whoami` komandası ilə serverin istifadəci adı və `date +%d-%m-%Y--%H:%M:%S` komandası ilə komanda göndərdiyi vaxtı qeydə alır.
+Kod açıklaması, `connection` adlı listede bağlatı isimleri bulunmakta. Bu sunucularada sıra ile komut çalıştırarak çıktıları bağlantı ismi  ve `.txt` uzantılı dosyaya aktarmaktadır.Ek olarak `whoami` komutu ile sunucunun username ve `date +%d-%m-%Y--%H:%M:%S` komutu ile işlem tarihini txt dosyasına aktarıyoruz.
 
-#### Görev 2. aşamasi
-1.aşama nəticəsində listimizdə olan bütün serverlerə komandalar göndərərək məlumatlarımızı listimizdəki qoşulma adlarına uyğun olaraq text fayllarına qeyd ettik. Bu aşamadə bu fayllardakı məlumatları excel fayllarına qeyd etmək üçün program yazmalıyıq bunun üçün isə python programlama dilindən istifadə edəcəyik.
-* Bu aşama üçün python programlama dilinin `xlsxwriter` kitabxanasından istifadə edəcəyik.
+#### Görev 2. aşaması
+1.aşama sonucunda sunucu bilgileri sunucu bağlantı ismine bağlı txt dosyalarına aktarıldı. Bu aşamada oluşan bu txt dosyalarının bilgilerini, python programlama dili kullanarak excel dosyasında gerekli kolonlara yazmak
+* Bu aşama için python programlama dilinin `xlsxwriter` kütüphanesinden faydalanacağız.
 
-Bu aşama üçün nümunəvi kod:
+Bu aşama için örnek kod:
 ```python
 #!/usr/bin/python
 import xlsxwriter
 import sys
-# servers output text files list
+# sunucus output text files list
 inputTxtFiles=['aztest@172.16.78.128.txt',
                'aztest@172.16.78.128.txt',
                'aztest@172.16.78.128.txt',
@@ -58,7 +57,7 @@ for x in xrange(1,(len(inputTxtFiles)+1)):
     worksheet.write(0, 1, 'Total')
     worksheet.write(0, 2, 'Used')
     worksheet.write(0, 3, 'Free')
-    worksheet.write(0, 4, 'Server Name')
+    worksheet.write(0, 4, 'sunucu Name')
 # Loop
     worksheet.write(x, 0, listm[0])
     worksheet.write(x, 1, listm[8])
@@ -68,8 +67,8 @@ for x in xrange(1,(len(inputTxtFiles)+1)):
     workbook.close()
 ```
 
-#### Görev son merhelesi
-Bu aşama, iki aşamani birləşdirən yəni, tək bir program vasitəsi ilə həm server məlumatlarını alıb həm də excel faylın yaradılması. Bu aşama python proqramlama dili ilə yazılacaqdır.
+#### Görev son aşama
+Bu aşama, iki aşamani birleştiren son olarak kullanılacak programın oldu aşamadır. Algoritmamaız, program kabuk dosyasını çalıştıracak ve oluşan dosyaları işleme alıp sonucunda tek excel dosyasını bize oluşturacaktır.
 
 Son aşama kod:
 
@@ -101,7 +100,7 @@ for x in xrange(0,4):
 subprocess.call("rm -rf *.txt", shell=True)
 ```
 
-Kod acıqlaması, program [cmd.sh]( https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/code/cmd.sh) faylından serverdən məlumatları almaq üçün lazimi komandaları göndərib məlumatları .txt fayllarına qeyd edəcək nəhayətində məlumatlar excel fayla yazılacaq. Python programı ilə shell'e komanda göndərmək üçün,`subprocess`kitabxanasından istifadə olunub. <br>
+Kod açıklaması, program [cmd.sh]( https://github.com/mahammad/CENG200_STAJ1/blob/master/memInfo/code/cmd.sh) dosyasındakı komutları çalıştırdıktan sonra çıktıları `.txt` dosyasına aktaracak. Sonra bu bilgilere göre excel dosyası oluşturulacaktır. Python  ile shell'e komut dosyası veya komut çalıştırmak için gerekli kütüphane `subprocess` . <br>
 <br>
 -----------
 
